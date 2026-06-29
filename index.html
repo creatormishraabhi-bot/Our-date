@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Little Surprise ❤️</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+<div class="hearts"></div>
+<div class="card">
+<h1>💖 A Little Surprise For You 💖</h1>
+<p>Dear Preeti ❤️</p>
+<p>Every day with you is my favorite day.</p>
+<p>Will you let me take you on a special date? 🌹</p>
+
+<label>📅 Pick a date</label>
+<input type="date" id="date">
+
+<label>🍽️ What would you love to eat?</label>
+<select id="food">
+<option>🍕 Pizza</option>
+<option>🍛 Biryani</option>
+<option>🍔 Burger</option>
+<option>🍝 Pasta</option>
+<option>🍣 Sushi</option>
+<option>🍦 Ice Cream</option>
+<option>✨ Surprise Me</option>
+</select>
+
+<label>💌 Anything you'd like to say?</label>
+<textarea id="msg"></textarea>
+
+<button onclick="sendMail()">💕 Yes! Let's Go 💕</button>
+<p id="status"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
